@@ -130,3 +130,9 @@ section:nth-of-type(even) {
     justify-content: right;
     color: #414141;
 }
+@media only screen and (max-width: 600px){
+    nav li{
+        font-size: .95rem;
+        font-weight: bold;
+    }
+}
