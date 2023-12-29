@@ -136,3 +136,9 @@ section:nth-of-type(even) {
         font-weight: bold;
     }
 }
+@media only screen and (max-width: 450px){
+    nav li{
+        font-size: .80rem;
+        font-weight: bold;
+    }
+}
