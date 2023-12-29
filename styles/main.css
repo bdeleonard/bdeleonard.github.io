@@ -140,6 +140,6 @@ section:nth-of-type(even) {
     nav li{
         font-size: .85rem;
         font-weight: bold;
-        padding: 10px 20px;
+        padding: 20px 10px;
     }
 }
