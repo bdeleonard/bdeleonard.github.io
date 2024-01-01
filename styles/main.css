@@ -46,7 +46,9 @@ nav li:hover {
 }
 main {
     display: block;
+    display: block;
     margin: 20px auto;
+    width: 100%;
     width: 100%;
     max-width: 1760px;
     min-width: 340px;
@@ -145,6 +147,6 @@ section:nth-of-type(even) {
     }
 }
 section pre.smaller{
-    font-size: .75rem;
+    font-size: .80rem;
     font-weight: bold;
 }
