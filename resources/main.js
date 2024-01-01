@@ -7,15 +7,21 @@ function headerFollow(){
         header.style.backdropFilter = 'blur(8px)';
         header.style.backgroundColor = 'rgba(0,0,0,0.7)';
         header.style.position = 'fixed';
+        header.style.left = '0';
+        header.style.right = '0';
         header.style.width = '100%';
         header.style.borderBottom = '2px solid rgba(255,255,255,0.1)';
         main.style.marginTop = '83px';
     } else if (y > 1 && width >= 340){
         header.style.position = 'fixed';
+        header.style.left = '0';
+        header.style.right = '0';
         header.style.width = '100%';
         main.style.marginTop = '83px';
     } else {
         header.style.position = '';
+        header.style.left = '';
+        header.style.right = '';
         main.style.marginTop = '';
         header.style.backdropFilter = '';
         header.style.backgroundColor = '';
