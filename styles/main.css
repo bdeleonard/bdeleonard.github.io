@@ -136,23 +136,6 @@ section:nth-of-type(even) {
     justify-content: right;
     color: #414141;
 }
-@media only screen and (max-width: 600px){
-    nav li{
-        font-size: .95rem;
-        font-weight: bold;
-    }
-    section pre.smaller{
-        font-size: .80rem;
-        font-weight: bold;
-    }
-}
-@media only screen and (max-width: 450px){
-    nav li{
-        font-size: .85rem;
-        font-weight: bold;
-        padding: 20px 10px;
-    }
-}
 @media only screen and (max-width: 360px){
     nav li{
         padding: 20px 5px;
@@ -176,4 +159,42 @@ nav li a:hover{
 }
 nav li.active{
     border-bottom: 2px solid #00ccff;
+}
+progressWrap {
+    display: block;
+    border-radius: 8px;
+    border: 2px solid #414141;
+}
+progressBar {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    background-color:#00ccff;
+    background: repeating-linear-gradient(45deg,#01b5e2,#069cc2 10px,#077692 10px,#074e5f 20px);
+    text-shadow: #00ccff 0 0 3px, #00ccff 0 0 3px, #00ccff 0 0 3px, #00ccff 0 0 4px, #00ccff 0 0 4px;
+    border-radius: 8px;
+    color: #000000;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 1800px){
+    progressWrap{
+        margin: 0 20px;
+    }
+}
+@media only screen and (max-width: 600px){
+    nav li{
+        font-size: .95rem;
+        font-weight: bold;
+    }
+    section pre.smaller{
+        font-size: .80rem;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 450px){
+    nav li{
+        font-size: .85rem;
+        font-weight: bold;
+        padding: 20px 10px;
+    }
 }
