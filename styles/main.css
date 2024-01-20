@@ -169,16 +169,17 @@ progressWrap {
     display: block;
     border-radius: 8px;
     border: 2px solid #414141;
+    background: repeating-linear-gradient(45deg,#464646 10px,#353535 20px);
+    overflow: hidden;
 }
 progressBar {
     display: block;
     text-align: center;
     padding: 20px 0;
-    background-color:#00ccff;
-    background: repeating-linear-gradient(45deg,#01b5e2,#069cc2 10px,#077692 10px,#074e5f 20px);
-    text-shadow: #00ccff 0 0 3px, #00ccff 0 0 3px, #00ccff 0 0 3px, #00ccff 0 0 4px, #00ccff 0 0 4px;
+    background-color:rgba(0, 204, 255, 0.7);
+    box-shadow:1px 0 4px #00ccff;
     border-radius: 8px;
-    color: #000000;
+    color: #003c4b;
     font-weight: bolder;
 }
 @media only screen and (max-width: 1800px){
@@ -201,5 +202,4 @@ progressBar {
         font-size: .85rem;
         font-weight: bold;
         padding: 20px 10px;
-    }
 } 
