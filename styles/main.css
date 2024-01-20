@@ -26,6 +26,7 @@ header {
     z-index: 1;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
+    transition: 500ms;
 }
 nav {
     display: flex;
